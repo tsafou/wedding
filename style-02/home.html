@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Kabheen - Wedding Web Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="../assets/img/apple-touch-icon.png">
+	<link href="../assets/css/plugins.min.css" rel="stylesheet">	
+	<link href="../style.css" rel="stylesheet">
+	<script src="../assets/js/jquery.min.js"></script>
+	<!--[if lte IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body id="page" class="hfead bordered">
+		
+	<header id="masterhead" class="site-header">
+		<div class="container-fluid">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".site-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="row">
+            	<div class="col-md-4 col-sm-12">
+            		<div class="site-branding">
+                        <h1 class="site-title">
+                        	<a href="#">Ioanna &amp; Kostis</a>
+                        </h1>
+                    </div><!-- end site-branding -->
+            	</div><!-- end col -->
+            	<div class="col-md-8 col-sm-12">
+            		<div class="site-navigation navbar-collapse collapse">
+            			<div class="nav-menu">
+
+            				<ul class="menu">
+		                        <li><a href="home.html">Home</a></li>
+		                        <!--<li><a href="couple.html">Couple</a></li>-->
+		                        <!--<li><a href="our-story.html">Our Story</a></li>-->
+		                        <li><a href="guest-book.html">Guest</a></li>
+		                        <li><a href="gallery.html">Gallery</a></li>
+		                        <!--<li><a href="rsvp.html">RSVP</a></li>-->
+		                        <li><a href="event.html">Event</a></li>
+		                        <!--<li><a href="blog.html">Blog</a>-->
+		                          <!--<ul>-->
+		                            <!--<li>-->
+		                              <!--<a href="blog-single.html">Blog Single</a>-->
+		                            <!--</li>-->
+		                            <!--<li>-->
+		                              <!--<a href="404.html">404 Page Not Found</a>-->
+		                            <!--</li>-->
+		                            <!--<li>-->
+		                              <!--<a href="ui-elements.html">UI Elements</a>-->
+		                            <!--</li>-->
+		                          <!--</ul>-->
+		                        <!--</li>-->
+		                    </ul>
+
+            			</div><!-- end nav-menu -->
+            		</div><!-- end site-navigation -->
+            	</div><!-- end col -->
+            </div><!-- end row -->
+		</div><!-- end container -->
+	</header><!-- end header -->
+
+	<div class="featured-slider">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div id="owl-slider" class="owl-carousel">
+					<img src="../assets/img/demo/slider-1.png" alt="Image 1">
+					<img src="../assets/img/demo/slider-2.png" alt="Image 2">
+				</div><!-- end owl-carousel -->
+
+				<div class="caption on-location">
+					<p>February 11th, 2017</p>
+					<p>at LAB'ATTOIR SKG</p>
+				</div><!-- end caption -->
+
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end featured-slider -->
+
+	<section class="couple">
+		<div class="container">
+			<h2 class="section-title">COUPLE</h2>
+
+			<div class="row">
+			
+				<div class="col-md-12 col-sm-6 onleft">	
+					<div class="col-md-4">
+						<span>The Bride</span>
+						<h3>Ioanna Karamichailidou</h3>
+						<p>Born in Thessaloniki in 1984...</p>
+						<div class="social">
+		                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+		                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+		                    <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+		                    <a href="#" title="Linked In"><i class="fa fa-pinterest"></i></a>
+		                </div><!-- end social -->
+					</div><!-- end col -->
+					<div class="col-md-8">
+						<figure>
+							<img src="../assets/img/samples/jo1.jpg" alt="bride">
+						</figure>
+					</div><!-- end col -->
+				</div><!-- end col -->
+
+				<div class="col-md-12 col-sm-6 onright">
+					<div class="col-md-8">
+						<figure>
+							<img src="../assets/img/samples/kostisLABATTOIR.jpg" alt="groom">
+						</figure>
+					</div>
+					<div class="col-md-4">
+						<span>The Groom</span>
+						<h3>Kostis Tsafaris</h3>
+						<p>Kostis was born and raised in Thessaloniki...</p>
+						<div class="social">
+		                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+		                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+		                    <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+		                    <a href="#" title="Linked In"><i class="fa fa-google-plus"></i></a>
+		                </div><!-- end social -->
+					</div>
+				</div><!-- end col -->
+
+			</div><!-- row -->
+
+		</div><!-- end container -->
+	</section><!-- end couple -->
+
+	<section id="date" class="count-down">
+		<div class="container">
+			<h2 class="section-title">Counting Down</h2>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+                    <div id="defaultCountdown"></div>
+                </div>
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</section><!-- end count-down -->
+
+	<section class="story">
+		<div class="container-fluid">
+			<div class="row no-gutter">
+				<div class="col-md-12">
+					<div class="story-inner equal">
+
+						<div class="line-story">
+							<span class="date-line">Summer 2010</span>
+							<h2>WHEN IT ALL STARTED</h2>
+							<p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula.</p>
+						</div><!-- end line-story -->
+
+						<div class="line-story">
+							<span class="date-line">5 September 2010</span>
+							<h2>FIRST DATE</h2>
+							<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+						</div><!-- end line-story -->
+
+						<div class="line-story">
+							<span class="date-line">11 September 2016</span>
+							<h2>THE PROPOSAL</h2>
+							<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+						</div><!-- end line-story -->
+
+						<div class="line-story">
+							<span class="date-line">11 February 2017</span>
+							<h2>OUR WEDDING</h2>
+							<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+						</div><!-- end line-story -->
+
+					</div><!-- end story-inner -->
+				</div><!-- end col -->
+				<!--<div class="col-md-6">-->
+					<!--<div class="story-quote equal">-->
+						<!--<h2 class="section-title">Our Story</h2>-->
+						<!--<blockquote>How can a woman be expected to be happy with a man who insist on treating her as if she were a perfectly normal human being.-->
+						<!--</blockquote>-->
+					<!--</div>&lt;!&ndash; end stroy-inner &ndash;&gt;-->
+				<!--</div>-->
+			</div>
+		</div>
+	</section>
+
+	<section class="family">
+		<div class="container">
+			<h2 class="section-title">OUR PEOPLE</h2>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="groomsmen-side">
+						<h3>KOSTIS'S FAMILY</h3>
+						<ul>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 01">
+								</figure>
+								<p class="tag-name">Dhymaz Akiyama</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 02">
+								</figure>
+								<p class="tag-name">Indra Gunawan</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 03">
+								</figure>
+								<p class="tag-name">Bambang Fernandes</p>
+							</li>
+						</ul>
+					</div><!-- end groomsmen-side -->
+				</div><!-- enc col -->
+
+				<div class="col-sm-6">
+					<div class="bridesmaid-side">
+						<h3>IOANNA'S FAMILY</h3>
+						<ul>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 07">
+								</figure>
+								<p class="tag-name">Lisa Rahmawati</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 08">
+								</figure>
+								<p class="tag-name">Rina Puspita Sari</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 09">
+								</figure>
+								<p class="tag-name">Amy Kurniawati</p>
+							</li>
+						</ul>
+					</div><!-- end groomsmen-side -->
+				</div><!-- enc col -->
+			</div><!-- end row -->
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="groomsmen-side">
+						<h3>KOSTIS'S BEST MAN</h3>
+						<ul>
+							<li>
+								<figure>
+									<img src="../assets/img/samples/kostisPantelisLABATTOIR.jpg" alt="Picture 01">
+								</figure>
+								<p class="tag-name">Pantelis</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 02">
+								</figure>
+								<p class="tag-name">Indra Gunawan</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 03">
+								</figure>
+								<p class="tag-name">Bambang Fernandes</p>
+							</li>
+						</ul>
+					</div><!-- end groomsmen-side -->
+				</div><!-- enc col -->
+
+				<div class="col-sm-6">
+					<div class="bridesmaid-side">
+						<h3>IOANNA'S MAID OF HONOR</h3>
+						<ul>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 07">
+								</figure>
+								<p class="tag-name">Lisa Rahmawati</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 08">
+								</figure>
+								<p class="tag-name">Rina Puspita Sari</p>
+							</li>
+							<li>
+								<figure>
+									<img src="../assets/img/demo/pict.png" alt="Picture 09">
+								</figure>
+								<p class="tag-name">Amy Kurniawati</p>
+							</li>
+						</ul>
+					</div><!-- end groomsmen-side -->
+				</div><!-- enc col -->
+			</div><!-- end row -->
+
+		</div><!-- end container -->
+	</section>
+
+	<section class="guest-book">
+		<div class="container">
+			<h2 class="section-title">Guest Book</h2>
+			<div class="row">
+				<div id="owl-text" class="owl-text">
+					<div>
+						<p>" I wish you all these things-but remember sometimes dreams are all up to you! "</p>
+						<span>Sheril Indarwati</span>
+						<figure class="vatar">
+							<img src="../assets/img/demo/ava.png" alt="ava-03">
+						</figure>
+					</div>
+
+					<div>
+						<p>" Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna "</p>
+						<span>Mona Suciwati</span>
+						<figure class="vatar">
+							<img src="../assets/img/demo/ava.png" alt="ava-02">
+						</figure>
+					</div>
+
+					<div>
+						<p>" Blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi "</p>
+						<span>Ridwan Suhaidi</span>
+						<figure class="vatar">
+							<img src="../assets/img/demo/ava.png" alt="ava-01">
+						</figure>
+					</div>
+				</div><!-- end owl-text -->
+			</div>
+		</div><!-- end container -->
+	</section><!-- end guest-book -->
+
+	<section class="home-gallery">
+		<div class="container">
+			<h2 class="section-title">Photo Album</h2>
+			<div class="row">
+
+			<div class="thumbnail-wrapper">
+			
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-1">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-2">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-3">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-4">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-5">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-6">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-7">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+				<figure class="col-md-3 col-sm-6 col-xs-12 thumb">
+					<a href="#" data-toggle="modal" data-target=".pop-up-8">
+						<img src="../assets/img/demo/home-pict.png" alt="">
+					</a>
+				</figure><!-- end col -->
+
+			</div><!-- end thumbnail-wrapper -->
+
+			<div class="modal fade pop-up-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-1">Image Gallery 01</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-2" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-2">Image Gallery 02</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-3" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-3">Image Gallery 03</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-4" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-4">Image Gallery 04</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-5" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-5">Image Gallery 05</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-6" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-6">Image Gallery 06</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-7" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-7">Image Gallery 07</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="modal fade pop-up-8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-8" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel-8">Image Gallery 04</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="../assets/img/demo/popup.png" alt="image">
+                        </div>
+                    </div><!-- end modal content -->
+                </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+
+            <div class="text-center">
+                <a href="#" class="btn btn-primary btn-lg">View More Pictures</a>
+            </div>
+
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</section>
+
+	<section class="reservation">
+		<div class="container">
+			<h2 class="section-title">Are You Attending?</h2>
+			<div class="row">
+				<div class="rsvp-box col-md-6 col-md-offset-3">
+					<div class="col-md-12">
+						<div class="form-group">
+		                	<input type="text" class="form-control" placeholder="Your Fullname">
+		                	<input type="text" class="form-control" placeholder="Email Address">
+		                	<div class="select">
+	                            <select class="form-control">
+	                                <option>Number of Guest</option>
+	                                <option>1</option>
+	                                <option>2</option>
+	                                <option>3</option>
+	                                <option>4</option>
+	                            </select>
+	                        </div><!-- end select -->
+
+	                        <div class="select">
+	                            <select class="form-control">
+	                                <option>Choose Events</option>
+	                                <option>Main Ceremony</option>
+	                                <option>Wedding Party</option>
+	                            </select>
+	                        </div><!-- end select -->
+
+	                        <div class="text-center">
+	                            <input class="btn btn-primary btn-lg" type="submit" value="I'm Attending">
+	                        </div>
+
+						</div><!-- end form-group -->
+					</div><!-- end col -->
+				</div>
+			</div><!-- end rsvp-box -->
+		</div><!-- end container -->
+	</section>
+
+	<section class="latest-blog">
+		<div class="container">
+			<h2 class="section-title">News &amp; Info</h2>
+			<div class="row">
+
+				<div class="latest-blog-list">
+					<div class="col-sm-4">
+						<a href="#" class="title">Hotels near our wedding party location</a>
+						<div class="meta">
+                            <p>Posted By: <a href="#">Admin</a></p>
+                            <p>Categories: 
+                                <a href="#">Location</a>,
+                                <a href="#">Wedding</a>
+                            </p>
+                        </div><!-- end meta -->
+					</div><!-- end col -->
+					<div class="col-sm-4">
+						<a href="#" class="title">transportation guideline to go to location</a>
+						<div class="meta">
+                            <p>Posted By: <a href="#">Admin</a></p>
+                            <p>Categories: 
+                                <a href="#">Location</a>,
+                                <a href="#">Wedding</a>
+                            </p>
+                        </div><!-- end meta -->
+					</div><!-- end col -->
+					<div class="col-sm-4">
+						<a href="#" class="title">best restourant near location</a>
+						<div class="meta">
+                            <p>Posted By: <a href="#">Admin</a></p>
+                            <p>Categories: 
+                                <a href="#">Location</a>,
+                                <a href="#">Wedding</a>
+                            </p>
+                        </div><!-- end meta -->
+					</div><!-- end col -->
+				</div><!-- end latest-blog-list -->
+
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</section>
+
+	<section class="gift-logo">
+		<div class="container">
+			<h2 class="section-title">Gift Registration</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<ul>
+						<li>
+							<a href="#"><img src="../assets/img/demo/logo-01.png" alt="logo"></a>
+						</li>
+						<li>
+							<a href="#"><img src="../assets/img/demo/logo-02.png" alt="logo"></a>
+						</li>
+						<li>
+							<a href="#"><img src="../assets/img/demo/logo-03.png" alt="logo"></a>
+						</li>
+						<li>
+							<a href="#"><img src="../assets/img/demo/logo-04.png" alt="logo"></a>
+						</li>
+						<li>
+							<a href="#"><img src="../assets/img/demo/logo-05.png" alt="logo"></a>
+						</li>
+					</ul>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</section>
+
+	<section class="list-event">
+		<div class="container">
+			<h2 class="section-title">The Wedding Events</h2>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="event-box">
+						<h3>Main Ceremony</h3>
+						<p class="date">11 FEBRUARY 2017 &mdash; 19:30</p>
+						<p class="place">at LAB'ATTOIR SKG</p>
+						<div class="map-link">
+							<a href="#" target="blank"><i class="fa fa-map-marker"></i></a>
+						</div>
+					</div><!-- end event-box -->
+					<div class="event-box">
+						<h3>Wedding Party</h3>
+						<p class="date">11 FEBRUARY 2017 &mdash; 20:30</p>
+						<p class="place">at LAB'ATTOIR SKG</p>
+						<div class="map-link">
+							<a href="#" target="blank"><i class="fa fa-map-marker"></i></a>
+						</div>
+					</div><!-- end event-box -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="bottom-space"></div>
+
+	<div class="bottom-section">
+		<div class="container">
+			<h2 class="closing">We Are in Love &amp; Getting Married</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="name-bottom">
+						<p>Ioanna Karamichailidou</p>
+						<p>&amp;</p>
+						<p>Kostis Tsafaris</p>
+					</div><!-- end name-bottom -->
+				</div>
+			</div>
+		</div><!-- end container -->
+
+		<footer class="site-credit">
+			<div class="container">
+				<p></p>
+			</div>
+		</footer>
+	</div><!-- end bottom section -->
+
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="../assets/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+</body>
+
+</html>
