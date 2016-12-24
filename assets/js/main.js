@@ -7,7 +7,7 @@
     	// OWL SLIDER
     	$("#owl-slider").owlCarousel({
             navigation : false,
-	    	autoPlay: true,
+	    	autoPlay: false,
             transitionStyle: "fade",
 	    	singleItem:true
     	});
