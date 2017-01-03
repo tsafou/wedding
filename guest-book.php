@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>Ioanna & Kostis Wedding</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../assets/img/apple-touch-icon.png">
-    <link href="../assets/css/plugins.min.css" rel="stylesheet">
-    <link href="../style.css" rel="stylesheet">
-    <script src="../assets/js/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="assets/img/apple-touch-icon.png">
+    <link href="assets/css/plugins.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
     <!--[if lte IE 9]>
     <script src="assets/js/html5shiv.min.js"></script>
     <![endif]-->
@@ -99,7 +99,7 @@
 </header><!-- end header -->
 
 <div class="page-heading"
-     style="background:#333 url('../assets/img/demo/page-title-bg.png')no-repeat; background-size:cover;">
+     style="background:#333 url('assets/img/demo/page-title-bg.png')no-repeat; background-size:cover;">
     <div class="container">
         <div class="row">
 
@@ -218,20 +218,20 @@
         </div>
     </div><!-- end container -->
 
-    <!--<footer class="site-credit">-->
-    <!--<div class="container">-->
-    <!--<p>COPYRIGHT &copy; 2017. BUILT BY TSAFOU.</p>-->
-    <!--</div>-->
-    <!--</footer>-->
+    <footer class="site-credit">
+        <div class="container">
+            <p>COPYRIGHT &copy; 2017. BUILT BY TSAFOU.</p>
+        </div>
+    </footer>
 </div><!-- end bottom section -->
 
-<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="../assets/js/jquery.plugin.js"></script>
-<script type="text/javascript" src="../assets/js/jquery.countdown.min.js"></script>
-<script type="text/javascript" src="../assets/js/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="../assets/js/jquery.mixitup.min.js"></script>
-<script type="text/javascript" src="../assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
