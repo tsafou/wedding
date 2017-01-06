@@ -76,19 +76,6 @@
                             <li><a href="gallery.html">Gallery</a></li>
                             <!--<li><a href="rsvp.html">RSVP</a></li>-->
                             <li><a href="event.html">Event</a></li>
-                            <!--<li><a href="blog.html">Blog</a>-->
-                            <!--<ul>-->
-                            <!--<li>-->
-                            <!--<a href="blog-single.html">Blog Single</a>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                            <!--<a href="404.html">404 Page Not Found</a>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                            <!--<a href="ui-elements.html">UI Elements</a>-->
-                            <!--</li>-->
-                            <!--</ul>-->
-                            <!--</li>-->
                         </ul>
 
                     </div><!-- end nav-menu -->
@@ -118,8 +105,10 @@
 
             <div class="testimonial-content">
                 <?php
-                $servername = "localhost";
-                $username = "root";
+//                $servername = "localhost";
+                $servername = "db23.papaki.gr:3306";
+//                $username = "root";
+                $username = "tsafou";
                 $password = "21112001AbC";
                 $db = "wedding";
 
@@ -130,52 +119,18 @@
                 $result = $mysqli->query($query);
 
                 while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-//    echo "<div id='sty'>";
-//    echo "<img src='files/fav icon.png'" . "' width='50px' height='50px' align='left' />";
-                    echo "<div id='nameid' class=\"col-sm-6 testimonial-grid\"><blockquote>\"" . $row['comment'] . "\"<cite>" .$row['name']. "</cite></blockquote></div>";
-//                    echo "<div id='msgid' class=\"col-sm-6 testimonial-grid\"><blockquote>" . $row['comment'] . "</blockquote></div>";
-//                    echo "</div><br />";
+                    echo "<div id='nameid' class=\"col-sm-3 testimonial-grid\"><blockquote style='word-wrap: break-word;'>\"" . $row['comment'] . "\"<cite>" .$row['name']. "</cite></blockquote></div>";
                 }
                 /* close connection */
                 $mysqli->close();
                 ?>
-<!--                <div class="col-sm-6 testimonial-grid">-->
-<!--                    <blockquote>" I wish you all these things-but remember sometimes dreams are all up to you! " <cite>Sheril-->
-<!--                            Indarwati</cite></blockquote>-->
-<!--                </div><!-- end column -->
-<!---->
-<!--                <div class="col-sm-6 testimonial-grid">-->
-<!--                    <blockquote>" Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming mazim-->
-<!--                        placerat facer possim assum " <cite>Hendra Binoto</cite></blockquote>-->
-<!--                </div><!-- end column -->
-<!---->
-<!--                <div class="col-sm-6 testimonial-grid">-->
-<!--                    <blockquote>" notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum-->
-<!--                        formas humanitatis " <cite>Yoppie Suherman</cite></blockquote>-->
-<!--                </div><!-- end column -->
-<!---->
-<!--                <div class="col-sm-6 testimonial-grid">-->
-<!--                    <blockquote>" seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum-->
-<!--                        clari, fiant sollemnes " <cite>Ratna Listy</cite></blockquote>-->
-<!--                </div><!-- end column -->
-<!---->
-<!--                <div class="col-sm-6 testimonial-grid">-->
-<!--                    <blockquote>" Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming mazim-->
-<!--                        placerat facer possim assum " <cite>Hendra Binoto</cite></blockquote>-->
-<!--                </div><!-- end column -->
-<!---->
-<!--                <div class="col-sm-6 testimonial-grid">-->
-<!--                    <blockquote>" notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum-->
-<!--                        formas humanitatis " <cite>Yoppie Suherman</cite></blockquote>-->
-<!--                </div><!-- end column -->
-
             </div><!-- end testimonial-content -->
 
         </div><!-- end row -->
 
         <div class="row">
             <div class="contact-form">
-                <form name="comment" method="post" action="../php/comment.php" onSubmit="return validation()">
+                <form name="comment" method="post" action="php/comment.php" onSubmit="return validation()">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="inner-contact">
                             <div class="entry-header">
@@ -188,7 +143,7 @@
                                 <p><input class="form-control" type="email" name="email" id="email"
                                           placeholder="Your Email"></p>
                                 <p><textarea class="form-control" rows="10" name="comment" id="comment"
-                                             maxlength="250"></textarea></p>
+                                             maxlength="200" placeholder="Your Wish"></textarea></p>
                                 <p><input type="submit" name="submit" value="Add Wish" class="btn btn-line btn-lg"
                                           id="button"></p>
                             </div><!-- end entry-content -->

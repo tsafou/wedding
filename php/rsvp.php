@@ -16,22 +16,25 @@ if ($mysqli->connect_error) {
 }
 
 if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
+    $name = $_POST['fullname'];
     $email = $_POST['email'];
-    $comment = $_POST['comment'];
+    $guests = $_POST['guests'];
 
     // sql to insert into table
-    $sql = "INSERT INTO comment (name, email, comment) VALUES ('$name', '$email', '$comment')";
+    $sql = "INSERT INTO rsvp (fullname, email, guests) VALUES ('$name', '$email', '$guests')";
 
     if ($mysqli->query($sql) === TRUE) {
-        echo "New record created successfully";
+        echo "Thank you for your reply.";
     } else {
         echo "Error: " . $sql . "<br>" . $mysqli->error;
     }
-
 //    header("Location:index.php");
-    header("Location:../guest-book.php");
+//    header("Location:../index.html");
+
+
 }
 
 $mysqli->close();
 ?>
+
+<p><input type="button" onclick="location.href='../index.html';" value="Return to main" /></p>
