@@ -524,7 +524,7 @@ img {
 }
 
 .couple {
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
     background: #fff;
 }
 
@@ -1007,7 +1007,7 @@ img {
 }
 
 .list-event {
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     background: #fff;
 }
 
@@ -1048,6 +1048,10 @@ img {
 
 .map-link a {
     color: #878787;
+}
+
+.map-link a:hover {
+    color: #000;;
 }
 
 .bordered {
