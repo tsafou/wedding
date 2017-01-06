@@ -114,12 +114,14 @@
 
                 // Create connection
                 $mysqli = new mysqli($servername, $username, $password, $db);
+                // Change character set to utf8
+                mysqli_set_charset($mysqli,"utf8");
 
                 $query = "SELECT * FROM comment";
                 $result = $mysqli->query($query);
 
                 while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-                    echo "<div id='nameid' class=\"col-sm-3 testimonial-grid\"><blockquote style='word-wrap: break-word;'>\"" . $row['comment'] . "\"<cite>" .$row['name']. "</cite></blockquote></div>";
+                    echo "<div id='nameid' class=\"col-sm-4 testimonial-grid\"><blockquote style='word-wrap: break-word;'>\"" . $row['comment'] . "\"<cite>" .$row['name']. "</cite></blockquote></div>";
                 }
                 /* close connection */
                 $mysqli->close();

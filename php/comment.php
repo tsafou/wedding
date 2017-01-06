@@ -15,6 +15,9 @@ if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 }
 
+// Change character set to utf8
+mysqli_set_charset($mysqli,"utf8");
+
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
