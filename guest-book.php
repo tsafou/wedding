@@ -46,6 +46,7 @@
     </script>
 </head>
 <body id="page" class="hfead bordered">
+<?php include_once("php/analyticstracking.php") ?>
 
 <header id="masterhead" class="site-header">
     <div class="container-fluid">
