@@ -73,10 +73,10 @@
                             <li><a href="index.html">Home</a></li>
                             <!--<li><a href="couple.html">Couple</a></li>-->
                             <!--<li><a href="our-story.html">Our Story</a></li>-->
-                            <li><a href="guest-book.php">Guest</a></li>
+                            <li><a href="guest-book.php">Guest Book</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <!--<li><a href="rsvp.html">RSVP</a></li>-->
-                            <li><a href="event.html">Event</a></li>
+<!--                            <li><a href="event.html">Event</a></li>-->
                         </ul>
 
                     </div><!-- end nav-menu -->
@@ -93,6 +93,7 @@
 
             <div class="col-md-12">
                 <h2 class="entry-title">Guest Book</h2>
+                <h4>#ioannakostis2017</h4>
             </div><!-- end col -->
 
         </div><!-- end row -->
@@ -164,7 +165,7 @@
 
 <div class="bottom-section">
     <div class="container">
-        <h2 class="closing">We Are in Love &amp; Getting Married</h2>
+        <h2 class="closing">We Are Getting Married!!!</h2>
         <div class="row">
             <div class="col-md-12">
                 <div class="name-bottom">
