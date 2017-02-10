@@ -22,7 +22,7 @@
 
     	// COUNTDOWN TIMER
         $("#defaultCountdown").countdown({
-            until: new Date(2017, 2 - 1, 11), // 24th JULY 2016 UNTIL
+            until: new Date(2017, 1, 11, 20, 0), // 24th JULY 2016 UNTIL
             format: 'OWDHMS'
         });
 
