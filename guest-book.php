@@ -74,7 +74,7 @@
                             <!--<li><a href="couple.html">Couple</a></li>-->
                             <!--<li><a href="our-story.html">Our Story</a></li>-->
                             <li><a href="guest-book.php">Guest Book</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="gallery.phtml">Gallery</a></li>
                             <!--<li><a href="rsvp.html">RSVP</a></li>-->
 <!--                            <li><a href="event.html">Event</a></li>-->
                         </ul>
