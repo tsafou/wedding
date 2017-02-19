@@ -120,19 +120,16 @@
                                     </div><!-- end modal-dialog -->
                                 </div><!-- end modal -->";
 						}
-						?>
 
-                        <?php
-                        $files = glob("assets/img/wedding/*.{jpg,png,gif}", GLOB_BRACE);
-                        $count = 0;
+						$files = glob("assets/img/wedding/*.{jpg,png,gif}", GLOB_BRACE);
 
-                        foreach($files as $file) {
-                            $count++;
-                            echo "<figure class=\"mix col-md-3 col-sm-6 col-xs-12 thumb wedding\">
+						foreach($files as $file) {
+							$count++;
+							echo "<figure class=\"mix col-md-3 col-sm-6 col-xs-12 thumb wedding\">
                                     <a href=\"#\" data-toggle=\"modal\" data-target=\".pop-up-$count\">
                                     <img src=\"$file\" alt=\"\"></a></figure>";
 
-                            echo "<div class=\"modal fade pop-up-$count\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel-$count\" aria-hidden=\"true\">
+							echo "<div class=\"modal fade pop-up-$count\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel-$count\" aria-hidden=\"true\">
 		                            <div class=\"modal-dialog modal-lg\">
 		                                <div class=\"modal-content\">
 		                                    <div class=\"modal-header\"><h4 class=\"modal-title\" id=\"myLargeModalLabel-$count\">Image Gallery $count</h4></div>
@@ -142,12 +139,9 @@
                                         </div><!-- end modal content -->
                                     </div><!-- end modal-dialog -->
                                 </div><!-- end modal -->";
-                        }
-                        ?>
+						}
 
-						<?php
 						$files = glob("assets/img/party/*.{jpg,png,gif}", GLOB_BRACE);
-						$count = 0;
 
 						foreach($files as $file) {
 							$count++;
@@ -167,6 +161,7 @@
                                 </div><!-- end modal -->";
 						}
 						?>
+
 <!--						<figure class="mix col-md-3 col-sm-6 col-xs-12 thumb pre wedding">-->
 <!--							<a href="#" data-toggle="modal" data-target=".pop-up-1">-->
 <!--								<img src="assets/img/demo/home-pict.png" alt="">-->
