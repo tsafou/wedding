@@ -4,5 +4,65 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///Library/Perl/5.18/darwin-thread-multi-2level" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Library/Perl/5.18/darwin-thread-multi-2level" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///Library/Perl/5.18" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Library/Perl/5.18" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///System/Library/Perl/5.18/darwin-thread-multi-2level" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///System/Library/Perl/5.18/darwin-thread-multi-2level" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///System/Library/Perl/5.18" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///System/Library/Perl/5.18" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///System/Library/Perl/Extras/5.18/darwin-thread-multi-2level" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///System/Library/Perl/Extras/5.18/darwin-thread-multi-2level" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///System/Library/Perl/Extras/5.18" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///System/Library/Perl/Extras/5.18" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
